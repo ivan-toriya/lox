@@ -175,7 +175,7 @@ class Scanner {
     }
 
     private boolean isAtEnd() {
-        return current > source.length();
+        return current >= source.length();
     }
 
 
